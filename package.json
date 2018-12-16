@@ -1,0 +1,16 @@
+{
+  "name": "de.mide.kfz_kennzeichen_webapp",
+  "version": "1.0.0",
+  "description": "Web-App mit Express auf Node.js; einfache KFZ-Kennzeichen-Abfrage, ohne und mit Ajax.",
+  "main": "index.html",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "ohne": "node WebApp_1_OhneAjax/KfzKennzeichenServer_OhneAjax.js",
+    "mit":  "node WebApp_2_MitAjax/KfzKennzeichenServer_MitAjax.js"
+  },
+  "author": "MDecker",
+  "license": "BSD-3-Clause"
+}
