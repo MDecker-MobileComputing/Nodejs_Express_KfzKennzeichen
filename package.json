@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "ohne": "node WebApp_1_OhneAjax/KfzKennzeichenServer_OhneAjax.js",
-    "mit":  "node WebApp_2_MitAjax/KfzKennzeichenServer_MitAjax.js"
+    "mit": "node WebApp_2_MitAjax/KfzKennzeichenServer_MitAjax.js"
   },
   "author": "MDecker",
   "license": "BSD-3-Clause"
