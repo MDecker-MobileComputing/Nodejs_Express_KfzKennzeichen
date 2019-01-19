@@ -48,5 +48,5 @@ The dependencies and the two scrips "ohne" and "mit" are both defined in the fil
 See the [LICENSE file](LICENSE.md) for license rights and limitations (BSD 3-Clause License)
 for the files in this repository.
 
-The Ajax variant of the application references [jQuery](https://jquery.org) which is published
+The Ajax variant of the application contains [jQuery](https://jquery.org) which is published
 under the terms of [MIT license](https://jquery.org/license/).
