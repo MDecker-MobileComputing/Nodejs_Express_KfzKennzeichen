@@ -50,7 +50,7 @@ function ladeDatenbank() {
         kfzKennzeichen.Z   = "Zwickau";
 
         let zaehler = 0;
-        for (var kfzKurz in kfzKennzeichen) { zaehler++; }
+        for (let kfzKurz in kfzKennzeichen) { zaehler++; }
         console.log(`\nDatenbank mit ${zaehler} KFZ-Kennzeichen "geladen".\n`);
 
     } else {
