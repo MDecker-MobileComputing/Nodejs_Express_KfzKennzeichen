@@ -1,2 +1,6 @@
 
+# Verzeichnis mit von "npm install" heruntergeladenen Paketen.
 node_modules
+
+# Metadaten-Dateien von MacOS ignorieren
+.DS_Store
