@@ -4,7 +4,7 @@
   "description": "Web-App mit Express auf Node.js; einfache KFZ-Kennzeichen-Abfrage, ohne und mit Ajax.",
   "main": "index.html",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.3"
   },
   "devDependencies": {},
   "scripts": {
