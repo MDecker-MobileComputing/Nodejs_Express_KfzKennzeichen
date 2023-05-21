@@ -1,4 +1,6 @@
-# Webapp mit Node.js-Backend
+# Webapp mit Node.js-Backend ##
+
+<br>
 
 This repository contains two variants of a simple web-app (without and with 
 [Ajax](https://en.wikipedia.org/wiki/Ajax_(programming))) with a backend 
@@ -9,7 +11,10 @@ the German codes for vehicle registration plates (e.g. code "B" stands for "Berl
 <br>
 
 ----
-## Running the application
+
+## Running the application ##
+
+<br>
 
 After cloning or downloading the repository you have to download express and its dependencies by 
 executing the following command:
@@ -43,10 +48,15 @@ The dependencies and the two scrips "ohne" and "mit" are both defined in the fil
 <br>
 
 ----
-## License
+
+## License ##
+
+<br>
 
 See the [LICENSE file](LICENSE.md) for license rights and limitations (BSD 3-Clause License)
 for the files in this repository.
 
 The Ajax variant of the application contains [jQuery](https://jquery.org) which is published
 under the terms of [MIT license](https://jquery.org/license/).
+
+<br>
