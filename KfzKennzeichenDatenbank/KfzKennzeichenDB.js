@@ -59,7 +59,7 @@ function ladeDatenbank() {
     }
 }
 
-// Datenbank vor erstem Zugriff einladen, also "Eager Loading" statt "Lazy Loading".
+// Datenbank vor erstem Zugriff "laden", also "Eager Loading" statt "Lazy Loading".
 ladeDatenbank();
 
 
