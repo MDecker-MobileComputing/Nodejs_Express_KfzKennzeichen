@@ -29,17 +29,17 @@ const kfzKennzeichenDB = require("../KfzKennzeichenDatenbank/KfzKennzeichenDB.js
  * Beispiel für Suche nach HH: /suchen?kfz_kuerzel=KA
  */
 function meinRequestHandler(request, response) {
-    
+
     const kfzKuerzel = request.query.kfz_kuerzel;
-    
+
     const ergebnis   = kfzKennzeichenDB.abfrage( kfzKuerzel );
-    
+
     // Statt einer kompletten HTML-Seite geben wir jetzt nur den
     // "nackten" Ergebnis-String zurück (Ajax-Antwort).
     response.send( ergebnis );
 }
 
-meineWebApp.get("/suchen",  meinRequestHandler);
+meineWebApp.get("/suchen", meinRequestHandler);
 
 
 

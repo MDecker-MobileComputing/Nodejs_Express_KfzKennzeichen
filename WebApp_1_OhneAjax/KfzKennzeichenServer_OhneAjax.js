@@ -28,11 +28,11 @@ const kfzKennzeichenDB = require("../KfzKennzeichenDatenbank/KfzKennzeichenDB.js
  * Beispiel für Suche nach HH: /suchen?kfz_kuerzel=KA
  */
 function meinRequestHandler(request, response) {
-    
+
     const kfzKuerzel = request.query.kfz_kuerzel;
-    
+
     const ergebnis = kfzKennzeichenDB.abfrage(kfzKuerzel);
-    
+
     response.send( "<!DOCTYPE html>\n<html lang=\"de\">\n"                                 +
                    "<head>\n"                                                              +
                    "  <title>Ergebnis</title>\n"                                           +
@@ -41,10 +41,10 @@ function meinRequestHandler(request, response) {
                    "  <h1>Ergebnis</h1>\n"                                                 +
                    "  <p>Ergebnis für \"" + kfzKuerzel + "\": " + ergebnis + "</p>\n"      +
                    "  <a href=\"index.html\">Zurück</a>\n"                                 +
-                   "</body>" );                
+                   "</body>" );
 }
 
-meineWebApp.get("/suchen",  meinRequestHandler);
+meineWebApp.get("/suchen", meinRequestHandler);
 
 
 
