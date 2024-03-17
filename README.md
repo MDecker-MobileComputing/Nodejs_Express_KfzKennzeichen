@@ -1,11 +1,11 @@
-# Webapp mit Node.js-Backend ##
+# Webapp mit Node.js-Backend #
 
 <br>
 
-This repository contains two variants of a simple web-app (without and with 
-[Ajax](https://en.wikipedia.org/wiki/Ajax_(programming))) with a backend 
+This repository contains two variants of a simple web-app (without and with
+[Ajax](https://en.wikipedia.org/wiki/Ajax_(programming))) with a backend
 based on [express](https://www.npmjs.com/package/express) for *Node.js*.
-The usecase of both variants of the app is it to perform queries on a tiny subset of 
+The usecase of both variants of the app is it to perform queries on a tiny subset of
 the German codes for vehicle registration plates (e.g. code "B" stands for "Berlin").
 
 <br>
@@ -16,14 +16,14 @@ the German codes for vehicle registration plates (e.g. code "B" stands for "Berl
 
 <br>
 
-After cloning or downloading the repository you have to download express and its dependencies by 
+After cloning or downloading the repository you have to download express and its dependencies by
 executing the following command:
 ````
     npm install
-````    
+````
 <br>
 
-To start the server component of the application in the variant *without Ajax* you have to 
+To start the server component of the application in the variant *without Ajax* you have to
 execute the script "ohne" (German for "without"):
 ````
     npm run ohne
